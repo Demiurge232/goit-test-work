@@ -31,10 +31,10 @@ export const TweetsItem = ({
     setIsFollow(prevIsFollow => !prevIsFollow);
     if (!isFollow) {
       setCountFollowers(prevCount => prevCount + 1);
-      saveFollow(user, countFollowers + 1, id);
+      saveFollow(user, countFollowers + 1, id, avatar, tweets);
     } else {
       setCountFollowers(prevCount => prevCount - 1);
-      saveFollow(user, countFollowers - 1, id);
+      saveFollow(user, countFollowers - 1, id, avatar, tweets);
     }
   };
 

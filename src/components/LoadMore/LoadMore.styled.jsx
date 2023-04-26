@@ -16,7 +16,6 @@ export const LoadMoreButton = styled.button`
   cursor: pointer;
   border: none;
   font-family: 'Montserrat';
-  font-style: normal;
   font-weight: 600;
   font-size: 18px;
   line-height: ${22 / 18}px;
